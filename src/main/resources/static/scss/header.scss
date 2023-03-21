@@ -1,0 +1,59 @@
+* {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Orbitron', sans-serif;
+}
+body {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #111;
+}
+$colorF:#fff;
+
+#header-Area {
+  width: 100%;
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 99;
+  .header-Area--section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 0;
+    .header-Area--section_left {
+      .section_left--logo {
+        margin-left: 6vw;
+        img {
+          width: 15vw;
+        }
+      }// .section_left--logo
+    }// .header-Area--section_left
+    .header-Area--section_right {
+      color: $colorF;
+      .section_right--nav {
+        display: flex;
+        align-items: center;
+        margin-right: 6vw;
+        font-family: "Changa", sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        .menuBar {
+          margin-left: 10px;
+          &::before, &::after {
+            content: "";
+            display: block;
+            width: 25px;
+            height: 2px;
+            background-color: $colorF;
+          }
+          &::before {
+            margin-bottom: 5px;
+          }
+        }
+      }// .section_right--nav
+    }// .header-Area--section_right
+  }// .header-Area--section
+}// #header-Area

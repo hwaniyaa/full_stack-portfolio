@@ -1,0 +1,58 @@
+* {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Orbitron", sans-serif;
+}
+
+body {
+  font-family: "Changa", sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  background-color: #111;
+}
+
+#header-Area {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+#header-Area .header-Area--section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3vw 0;
+}
+#header-Area .header-Area--section .header-Area--section_left .section_left--logo {
+  margin-left: 6vw;
+}
+#header-Area .header-Area--section .header-Area--section_left .section_left--logo img {
+  width: 15vw;
+}
+#header-Area .header-Area--section .header-Area--section_right {
+  color: #fff;
+}
+#header-Area .header-Area--section .header-Area--section_right .section_right--nav {
+  display: flex;
+  align-items: center;
+  margin-right: 6vw;
+  font-family: "Changa", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+#header-Area .header-Area--section .header-Area--section_right .section_right--nav .menuBar {
+  margin-left: 10px;
+}
+#header-Area .header-Area--section .header-Area--section_right .section_right--nav .menuBar::before, #header-Area .header-Area--section .header-Area--section_right .section_right--nav .menuBar::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+}
+#header-Area .header-Area--section .header-Area--section_right .section_right--nav .menuBar::before {
+  margin-bottom: 5px;
+}
